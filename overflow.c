@@ -4,8 +4,8 @@
 int main(void)
 {
 	// Integer overflow
-	int a = get_int("a= ");
-	int b = get_int("b= ");
+	long a = get_long("a= ");
+	long b = get_long("b= ");
 
-	printf("a + b = %i", a + b);
+	printf("a + b = %lld", a + b); // lld = long long decimal = 64bit
 }
